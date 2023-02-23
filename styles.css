@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.banner {
+  width: 100%;
+  height: 400px;
+  background-color: aqua;
+  position: relative;
+  /* background-image: url("/img/1.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  /* background-position: center; 
+  object-fit: fill; */
+}
+
+.img-banner {
+  display: inline-block;
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  object-fit: fill;
+}
