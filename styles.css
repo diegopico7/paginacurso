@@ -6,19 +6,19 @@
   font-family: sans-serif;
 }
 
-.banner {
+/* .banner {
   width: 100%;
   height: 400px;
   background-color: aqua;
-  position: relative;
-  /* background-image: url("/img/1.png");
+  position: relative; */
+/* background-image: url("/img/1.png");
   background-repeat: no-repeat;
   background-size: contain;
   /* background-position: center; 
-  object-fit: fill; */
+  object-fit: fill; 
 }
 
-/* .img-banner {
+.img-banner {
   display: inline-block;
   position: absolute;
   width: 100%;
@@ -26,9 +26,24 @@
   object-fit: fill;
 } */
 
-.carousel-item {
+/* .carousel-item {
   width: 700px;
   height: 400px;
+} */
+.carrusel {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo-objetivos {
+  text-align: center;
+}
+
+.tarjeta-objetivo1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .contenedor-lenguajes-general {
