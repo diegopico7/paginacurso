@@ -37,6 +37,7 @@
 
 .titulo-objetivos {
   text-align: center;
+  font-weight: bolder;
 }
 
 .tarjeta-objetivo1 {
@@ -44,6 +45,26 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.tarjeta1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  flex-wrap: wrap;
+
+  margin: 1rem;
+  padding: 1rem;
+}
+.tarjeta1 p {
+  width: 200px;
+  height: 200px;
+
+  text-align: center;
+}
+.tarjeta1 img {
+  clip-path: circle(130px at 50%);
 }
 
 .contenedor-lenguajes-general {
