@@ -163,12 +163,12 @@ footer {
   width: 25px;
 }
 .program {
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 15vh;
-  padding: 0;
 }
 .program p {
   font-size: 10px;
