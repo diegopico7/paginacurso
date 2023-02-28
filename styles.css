@@ -174,3 +174,38 @@ footer {
   font-size: 10px;
   align-items: center;
 }
+
+.titulo-nosotros {
+  margin-top: 10px;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.logo-nosotros {
+  margin-left: 15px;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+.texto-nosotros {
+  margin: 0 10px;
+  width: 80%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+/* .degrado-texto {
+  background-image: linear-gradient(45deg, magenta, yellow);
+  -ms-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -ms-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+} */
