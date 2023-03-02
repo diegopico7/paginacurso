@@ -6,16 +6,12 @@
   font-family: sans-serif;
 }
 
-/* .banner {
+.banner {
   width: 100%;
   height: 400px;
   background-color: aqua;
-  position: relative; */
-/* background-image: url("/img/1.png");
-  background-repeat: no-repeat;
-  background-size: contain;
-  /* background-position: center; 
-  object-fit: fill; 
+  position: relative;
+  object-fit: fill;
 }
 
 .img-banner {
@@ -24,7 +20,8 @@
   width: 100%;
   height: 400px;
   object-fit: fill;
-} */
+  /* object-position: 0% 0%; */
+}
 
 /* .carousel-item {
   width: 700px;
