@@ -6,6 +6,26 @@
   font-family: sans-serif;
 }
 
+.titulo-principal {
+  display: none;
+  /* visibility: hidden; */
+  text-align: center;
+  font-weight: 600;
+  font-size: 2rem;
+  /* background-image: linear-gradient(
+    45deg,
+    rgb(125, 144, 248),
+    rgb(247, 247, 244)
+  );
+  -ms-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -ms-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent; */
+}
 .banner {
   width: 100%;
   height: 350px;
@@ -23,13 +43,11 @@
   /* object-position: 0% 0%; */
 }
 
-/* .carousel-item {
-  width: 700px;
-  height: 400px;
-} */
 .carrusel {
   display: flex;
   justify-content: center;
+  width: 850px;
+  height: 350px;
 }
 
 .titulo-objetivos {
@@ -102,10 +120,12 @@
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 30px;
 }
 .contenedor-acordeon {
   width: 150px;
   height: 200px;
+  margin-top: 10px;
   /* position: absolute; */
 }
 .titulo-acordeon {
@@ -128,6 +148,23 @@
   font-size: small;
   font-weight: 100;
   z-index: 555;
+}
+
+.flecha-inicio {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+
+  align-items: flex-end;
+}
+.flecha-inicio img {
+  width: 50px;
+  height: 50px;
+  padding-right: 5px;
+}
+.flecha-inicio p {
+  padding-right: 10px;
+  text-align: center;
 }
 
 footer {
