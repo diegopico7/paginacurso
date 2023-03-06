@@ -6,6 +6,12 @@
   font-family: sans-serif;
 }
 
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 .titulo-principal {
   display: none;
   visibility: hidden;
@@ -435,4 +441,39 @@ footer {
   scale: 1.2;
   border: solid gray 1px;
   box-shadow: 1px 2px 5px grey;
+}
+
+/* .dark-mode {
+  background-color: #000;
+  color: #fff;
+} */
+
+.oscuro-contenedor {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.b-dark {
+  border: none;
+  background-color: white;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.b-dark:hover {
+  color: #fff;
+  border: none;
+  background: black;
+  border-radius: 5px;
+}
+
+body.darkmode {
+  background-color: rgb(32, 32, 44);
+  color: white;
+  transition: all 2s;
+}
+
+.darkmode button:hover {
+  background-color: white;
+  color: black;
 }
