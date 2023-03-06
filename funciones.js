@@ -1,6 +1,7 @@
 // modo oscuro
 
 const bdark = document.querySelector("#bdark");
+
 const body = document.querySelector("body");
 
 load();
