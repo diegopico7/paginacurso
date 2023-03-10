@@ -463,24 +463,15 @@ footer {
 .b-dark:hover {
   color: #fff;
   border: none;
-  /* background: black; */
+  background: black;
   border-radius: 5px;
 }
 
 body.darkmode {
   background-color: rgb(32, 32, 44);
   color: white;
-
   transition: all 2s;
 }
-
-/* .b-dark::after {
-  content: "Oscuro";
-} */
-
-/* .b-dark::before {
-  content: "Light";
-} */
 
 .darkmode button:hover {
   background-color: white;
