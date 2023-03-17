@@ -26,6 +26,7 @@
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
   <link rel="stylesheet" href="/paginacurso/styles.css">
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="calculadora.css">
 
 </head>
 
@@ -134,23 +135,38 @@
   <hr>
   <br>
   <h2>Calculadora</h2>
-  <input id="visor" type="text">
-  <br>
-  <button id="boton1" value="1" type="button">1</button>
-  <button id="btnNum2" value="2">2</button>
-  <button id="btnNumSuma" value="+">+</button>
-  <button id="btnNumResta">-</button>
-  <button id="btnNumDiv">/</button>
-  <button id="btnNumMult">*</button>
-  <button id="btnResultado">=</button>
-  <br>
 
-  <br><br><br>
-  <button type="button" id="boton" value="1">1</button>
-  <button type="button" id="boton" value="2">2</button>
-  <br>
+  <div id="appbg">
+    <form name="calculator">
+      <input type="textfield" name="ans" value="" autocomplete="off" readonly>
 
-  <input type="text" id="resultado">
+      <input type="button" value="7" onclick="document.calculator.ans.value+='7'" class="gray">
+      <input type="button" value="8" onclick="document.calculator.ans.value+='8'" class="gray">
+      <input type="button" value="9" onclick="document.calculator.ans.value+='9'" class="gray">
+      <input type="button" value="+" onclick="document.calculator.ans.value+='+'" class="orange">
+      <br>
+      <input type="button" value="4" onclick="document.calculator.ans.value+='4'" class="gray">
+      <input type="button" value="5" onclick="document.calculator.ans.value+='5'" class="gray">
+      <input type="button" value="6" onclick="document.calculator.ans.value+='6'" class="gray">
+      <input type="button" value="-" onclick="document.calculator.ans.value+='-'" class="orange">
+      <br>
+      <input type="button" value="1" onclick="document.calculator.ans.value+='1'" class="gray">
+      <input type="button" value="2" onclick="document.calculator.ans.value+='2'" class="gray">
+      <input type="button" value="3" onclick="document.calculator.ans.value+='3'" class="gray">
+      <input type="button" value="x" onclick="document.calculator.ans.value+='*'" class="orange">
+      <br>
+      <input type="button" value="0" onclick="document.calculator.ans.value+='0'" class="gray">
+      <input type="reset" value="c">
+      <input type="button" value="=" onclick="document.calculator.ans.value=eval(document.calculator.ans.value)">
+      <input type="button" value="/" onclick="document.calculator.ans.value+='/'" class="orange">
+
+    </form>
+  </div>
+
+
+
+
+  <br><br>
   <footer>
     <article class="footer-redes">
       <a href=""><img src="./img/muestras/svg/facebook.svg" alt="logo redes sociales"></a>
