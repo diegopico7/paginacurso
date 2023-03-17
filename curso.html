@@ -54,18 +54,103 @@
   </div>
 
   <h1 class="titulo-curso">Nuestros cursos</h1>
-  <article class="curso-container">
-    <h3>Desarrollador web frontend</h3>
-    <img src="/img/4.png" alt="" class="img-curso">
-
-  </article>
 
 
+  <h3 class="subtitulo-curso">Desarrollador web frontend</h3>
+
+  <section class="conteiner d-flex flex-wrap align-content-center justify-content-around">
+
+    <div class="card m-1" style="width: 18rem;">
+      <h6>¿Qué es el desarrollador frontend?</h6>
+      <img src="/img/muestras/curso/1.png" class="card-img-top" alt="curso" width="200px" height="200px">
+      <div class="card-body">
+        <p class="card-text">Es el encargado de crear completamente un sitio web desde el lado del usuario, o sea en el
+          frente, todo lo que
+          el
+          usuario ve e interactúa con el sitio web lo crea el frontend
+        </p>
+      </div>
+    </div>
+
+    <div class="card m-1" style="width: 18rem;">
+      <h6>¿Qué hace un desarrollador web?</h6>
+      <img src="/img/muestras/curso/5.png" class="card-img-top" alt="curso" width="200px" height="200px">
+      <div class="card-body">
+        <p class="card-text">No solo vas a crear y desarrollar web, si no que también vas a estar capacitado para
+          mantener
+          sitios, corregir,
+          darle utilidad y funcionalidad a través de programacion
+        </p>
+      </div>
+    </div>
 
 
+    <div class="card m-1" style="width: 18rem;">
+      <h6 class="m-1 p-1">¿Una vez creada la página se puede subir a internet?</h6>
+      <img src="/img/muestras/curso/2.png" class="card-img-top" alt="curso" width="200px" height="200px">
+      <div class="card-body">
+        <p class="card-text">Por supuesto que si, vamos a darte las herramientas y asesoramiento correspondiente para
+          que
+          tus sitios estan
+          en
+          la web. Y puedan visitarlo desde cualquier parte del mundo, adquiriendo hosting (servidor para alojar tu web)
+          y
+          dominios (nombre de tu web)
+        </p>
+      </div>
+    </div>
+
+    <div class="card m-1" style="width: 18rem;">
+      <h6 class="m-1 p-1">¿Buenas prácticas?</h6>
+      <img src="/img/muestras/curso/3.png" class="card-img-top" alt="curso" width="200px" height="200px">
+      <div class="card-body">
+        <p class="card-text">Vamos a profundizar en la práctica, pero por sobre todo siempre desde el comienzo tomar el
+          hábito de codear con buenas prácticas, mantener un código limpio, claro y ordenado.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+  <h3>Muestras de lo que podes crear con javascript</h3>
 
 
+  <hr>
+  <h2>Cuenta regresiva de 10 segundos</h2>
+  <div id="cta">
+    <p id="vista">Cuenta Regresiva</p>
+    <button id="btn-cta">Comenzar</button>
+    <button id="btn-stopp">Parar Cuenta</button>
+    <button type="button" id="clear-btn">Resetear</button>
+  </div>
+  <hr>
+  <br>
+  <h2>Reloj Digital</h2>
+  <div id="clock"></div>
+  <div><button id="clock-play">Play</button>
+    <button id="clock-stop">Parar</button>
+  </div>
 
+  <hr>
+  <br>
+  <h2>Calculadora</h2>
+  <input id="visor" type="text">
+  <br>
+  <button id="boton1" value="1" type="button">1</button>
+  <button id="btnNum2" value="2">2</button>
+  <button id="btnNumSuma" value="+">+</button>
+  <button id="btnNumResta">-</button>
+  <button id="btnNumDiv">/</button>
+  <button id="btnNumMult">*</button>
+  <button id="btnResultado">=</button>
+  <br>
+
+  <br><br><br>
+  <button type="button" id="boton" value="1">1</button>
+  <button type="button" id="boton" value="2">2</button>
+  <br>
+
+  <input type="text" id="resultado">
   <footer>
     <article class="footer-redes">
       <a href=""><img src="./img/muestras/svg/facebook.svg" alt="logo redes sociales"></a>
@@ -92,9 +177,9 @@
     crossorigin="anonymous"></script>
   <script src="funciones.js"></script>
 
-
-
-
+  <script type="module" src="cuentaregrasiva.js"></script>
+  <script type="module" src="relojdigital.js"></script>
+  <script type="module" src="calculadora.js"></script>
 
 
 
