@@ -1,0 +1,26 @@
+.cards {
+  display: grid;
+  /*repetimos varias columnas el primer valor autofit en base al n° elementos fijos va a aplilarse y minmax a un elemento grid le permite estar entre el tamaño mino en este caso 250y 1fraccion que seria el espacio q sobre*/
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.card1 {
+  background-color: lightcyan;
+  transition: all 0.3s ease-out;
+}
+
+/* .card1 img {
+  width: 100%;
+  height: auto;
+} */
+
+.card1 figcaption {
+  padding: 1rem;
+}
+.filter {
+  /*si usamos el display none visualmente queda desprolijo*/
+  /* display: none;*/
+  /*si la ocultamos es mejor y podemos usar la transition. y order va a hacer que las que no se oculten ocupen el primer lugar asi queda ordenada la busqueda */
+  visibility: hidden;
+  opacity: 0;
+  order: 1;
+}

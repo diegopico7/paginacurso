@@ -27,6 +27,7 @@
   <link rel="stylesheet" href="/paginacurso/styles.css">
   <link rel="stylesheet" href="styles.css">
   <link rel="stylesheet" href="calculadora.css">
+  <link rel="stylesheet" href="busqueda.css">
 
 </head>
 
@@ -163,10 +164,53 @@
     </form>
   </div>
 
-
+  <hr>
+  <br>
+  <h2>Sorteo digital</h2>
+  <ul class="players">
+    <li class="player">Javascript</li>
+    <li class="player">Python</li>
+    <li class="player">Ruby</li>
+    <li class="player">Go</li>
+    <li class="player">C</li>
+    <li class="player">C#</li>
+    <li class="player">C++</li>
+    <li class="player">Visual Basic</li>
+    <li class="player">Rust</li>
+    <li class="player">PHP</li>
+  </ul>
+  <button id="winner-btn">Obtener Ganador</button>
 
 
   <br><br>
+
+  <hr>
+  <br>
+
+  <h2>Filtros de búsqueda</h2>
+  <input type="search" placeholder="buscar..." class="card-filter">
+  <article class="cards">
+    <figure class="card1"><img src="https://placeimg.com/200/200/any" alt="any">
+      <figcaption>Any</figcaption>
+    </figure>
+    <figure class="card1"><img src="https://placeimg.com/200/200/nature" alt="nature">
+      <figcaption>Nature</figcaption>
+    </figure>
+    <figure class="card1"><img src="https://placeimg.com/200/200/nature" alt="nature">
+      <figcaption>Nature</figcaption>
+    </figure>
+    <figure class="card1"><img src="https://placeimg.com/200/200/people" alt="People">
+      <figcaption>People</figcaption>
+    </figure>
+    <figure class="card1"><img src="https://placeimg.com/200/200/tech" alt="Tech">
+      <figcaption>tech</figcaption>
+    </figure>
+  </article>
+
+
+
+  <br>
+  <hr>
   <footer>
     <article class="footer-redes">
       <a href=""><img src="./img/muestras/svg/facebook.svg" alt="logo redes sociales"></a>
@@ -193,10 +237,13 @@
     crossorigin="anonymous"></script>
   <script src="funciones.js"></script>
 
+
+
   <script type="module" src="cuentaregrasiva.js"></script>
   <script type="module" src="relojdigital.js"></script>
   <script type="module" src="calculadora.js"></script>
-
+  <script type="module" src="sorteo.js"></script>
+  <script type="module" src="busqueda.js"></script>
 
 
 
