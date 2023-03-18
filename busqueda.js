@@ -15,11 +15,11 @@ function search(input, selector) {
         e.target.value = "";
       }
 
-      //vamos a buscar los elementos que tengan ese selector, y buscara x cada selector el texto, textContent sera el texto que tienen las clases card1 vamos a forzar q sea todo minuscula luego con el includes ponemos una condicion ternaria a true a false, si da true le sacamos la clase filter y si da false le agregamos la clase filter
+      // vamos a buscar los elementos que tengan ese selector, y buscara x cada selector el texto, textContent sera el texto que tienen las clases card1 vamos a forzar q sea todo minuscula luego con el includes ponemos una condicion ternaria a true a false, si da true le sacamos la clase filter y si da false le agregamos la clase filter
       document
         .querySelectorAll(selector)
         .forEach((el) => el.textContent.toLowerCase().includes(e.target.value))
-        ? el.classList.remove("filter")
+          ? el.classList.remove("filter")
         : el.classList.add("filter");
     }
   });
